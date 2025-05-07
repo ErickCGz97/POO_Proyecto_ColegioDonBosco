@@ -147,6 +147,10 @@ VALUES ('Javier', 'Ortiz', 'javier.ortiz@email.com', 'password456', 'Profesor');
 INSERT INTO Usuarios (nombre, apellido, correo, contraseña, tipo_usuario) 
 VALUES ('Victor', 'Nolasco', 'victor.nolasco@email.com', 'password789', 'Alumno');
 
+INSERT INTO Usuarios (nombre, apellido, correo, contraseña, tipo_usuario) 
+VALUES ('Usuario', 'Prueba', 'usuario.prueba@email.com', 'password789', 'Alumno');
+
+-- delete from Usuarios where id_usuario = 5;
 select *from Usuarios;
 
 -- Tabla Administradores
